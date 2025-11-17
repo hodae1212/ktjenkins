@@ -8,7 +8,7 @@ pipeline {
     }
     stage('CD using k8s') {
       steps {
-        sh """
+        sh '''
         kubectl apply -f testapp.yml
         '''
       }
