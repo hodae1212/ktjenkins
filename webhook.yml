@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: hook
+  name: bonk
 spec:
   containers:
   - name: nginx
